@@ -1,6 +1,7 @@
 import { Phone } from 'lucide-react';
 import dogImg from'../../../public/hero-dog.webp'
 import Image from 'next/image';
+import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 export function Hero(){
     return(
         <section className="bg-[#E84C3D] text-white relative overflow-hidden">
@@ -28,7 +29,7 @@ export function Hero(){
                         </p>
 
                             <a href="#" className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2" >
-                            <Phone size={24} />
+                            <WhatsappLogo size={24} />
                             Contato via WhatsApp
                             </a>
                         <div className="mt-8">
