@@ -44,21 +44,17 @@ export function About() {
             <h2 className="text-4xl font-bold">SOBRE</h2>
 
             <p>
-              Until one has loved an animal, a part of one's soul remains
-              unawakened. We believe in it and we believe in easy access to
-              things that are good for our mind, body and spirit. With a clever
-              offering, superb support and a secure checkout you're in good
-              hands.
+              No nosso petshop, o cuidado com seu melhor amigo é prioridade! Oferecemos produtos de qualidade, atendimento acolhedor e serviços pensados para o bem-estar dos pets. Seja para banho, tosa ou aquele brinquedo especial, aqui seu animalzinho é tratado com carinho e respeito. Venha nos visitar e descubra um espaço feito com amor para quem ama animais!
             </p>
 
             <ul className="space-y-4">
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
-                Aberto desde 2006.
+                Aberto desde 2019.
               </li>
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
-                Equipe com mais de 10 veterinários.
+                Equipe com veterinário.
               </li>
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
@@ -69,7 +65,7 @@ export function About() {
             <div className="flex gap-2">
               <a
                 target="_blank"
-                href={`https://wa.me/556799998800?text=Olá vim pelo site e gostaria de mais informações`}
+                href={`https://wa.me/5531971899236?text=Olá vim pelo site e gostaria de mais informações`}
                 className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"
               >
                 <WhatsappLogo className="w-5 h-5 text-white" />
